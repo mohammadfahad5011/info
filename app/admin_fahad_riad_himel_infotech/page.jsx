@@ -56,7 +56,7 @@ export default function AdminLayout() {
   }, []);
 
   const apiUrl =
-    process.env.NEXT_PUBLIC_API_URL || "https://info-tech-rho.vercel.app/api";
+    process.env.NEXT_PUBLIC_API_URL || "https://info-indol-nu.vercel.app/";
 
   console.log("=====apiUrl====", apiUrl);
 
